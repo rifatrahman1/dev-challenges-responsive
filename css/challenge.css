@@ -86,6 +86,7 @@ h4 {
 
 .review h1 {
     margin-top: 10px;
+    font-size: 35px;
 }
 
 .check-review {
@@ -113,14 +114,25 @@ h4 {
     padding: 2px 0;
 }
 
+.social{
+    position: relative;
+}
+
 .image-social {
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-.google img {
+.google img, .meta img {
     width: 100px;
+}
+
+.google-point{
+    position: absolute;
+    right: 0;
+    left: 150px;
+    transform: translateY(-220px);
 }
 
 .google-point,
@@ -129,7 +141,7 @@ h4 {
     width: 370px;
     height: 170px;
     padding: 30px 30px;
-    margin-top: 30px;
+    margin-top: 150px;
     border-radius: 15px;
     box-shadow: 0px 9px 10px -7px rgba(0, 0, 0, 0.62);
     -webkit-box-shadow: 0px 9px 10px -7px rgba(0, 0, 0, 0.62);
